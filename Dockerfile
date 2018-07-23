@@ -1,4 +1,4 @@
-FROM tomcat:jre-alpine
+FROM tomcat:jre8-alpine
 
 # For wget to work
 RUN apk update \
